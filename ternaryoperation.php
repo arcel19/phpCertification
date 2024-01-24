@@ -6,4 +6,7 @@
 
    echo $message;
 
+   $name = isset($name) ? $name : "joe";
+   echo $name;
+
  ?>
