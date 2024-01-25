@@ -12,3 +12,18 @@ if(is_palindrome($check_string)){
 }else {
     echo "<p> $check_string is not a palindrome</p>";
 }
+
+
+//Union typing
+
+function double(int $a){
+    return $a * 2;
+}
+echo double(3.4);
+
+//otherwise with union typing you can have this
+
+function union(int|float|null $a){
+    return $a * 2 ;
+}
+echo union(3.4);
