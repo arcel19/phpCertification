@@ -19,11 +19,32 @@ if(is_palindrome($check_string)){
 function double(int $a){
     return $a * 2;
 }
-echo double(3.4);
+echo double(3.4) .'<br/>';
 
 //otherwise with union typing you can have this
 
-function union(int|float|null $a){
-    return $a * 2 ;
+// function union(int|float|null $a){
+//     return $a * 2 ;
+// }
+// echo union(3.4);
+
+//optional arguments and name arguments
+
+function math($a, $b = 2 , $op = 'multiply'){
+    if($op == 'add'){
+        return $a + $b;
+    } elseif( $op == 'sub'){
+        return $a - $b;
+    }elseif( $op == 'divide'){
+        return $a / $b;
+    }
+
+    return $a * $b;
 }
-echo union(3.4);
+
+// echo math(12, op: 'add');
+
+// ananymous function 
+
+
+
