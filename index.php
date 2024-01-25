@@ -1,3 +1,3 @@
 <?php
-require('loops.php');
+require('functions.php');
 ?>
