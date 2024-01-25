@@ -1,3 +1,3 @@
 <?php
-require('arithmeticoperator.php');
+require('modulus.php');
 ?>
