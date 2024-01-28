@@ -28,4 +28,17 @@ switch($turtle) {
 }
 
 echo $tas;
+
+$paymentStatus = '2' ;
+
+switch($paymentStatus){
+    case 1:
+        var_dump('success');
+        break;
+    case 2:
+        var_dump('pending');
+        break;
+        default:
+        var_dump('unknow');
+}
 ?>
