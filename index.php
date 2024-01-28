@@ -1,1 +1,1 @@
-<?php include 'switchstatement.php';
+<?php include 'resistorcolor.php';
