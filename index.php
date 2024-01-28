@@ -1,1 +1,1 @@
-<?php include 'resistorcolor.php';
+<?php include 'twofer.php';
