@@ -9,6 +9,8 @@ function isLeap(int $year): bool
         return false;
     }
     else {
+        echo 'true';
         return true;
     }
+
 }
