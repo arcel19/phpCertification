@@ -1,1 +1,1 @@
-<?php include 'alternativefunc.php';
+<?php include 'variadicfunc.php';
