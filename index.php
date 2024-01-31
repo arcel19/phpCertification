@@ -1,1 +1,1 @@
-<?php include 'anonyfunc.php';
+<?php include 'robotname.php';
