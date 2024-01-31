@@ -1,1 +1,1 @@
-<?php include 'variadicfunc.php';
+<?php include 'anonyfunc.php';
