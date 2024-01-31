@@ -1,1 +1,1 @@
-<?php include 'alternativeif.php';
+<?php include 'alternativefunc.php';
