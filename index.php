@@ -1,1 +1,1 @@
-<?php include 'robotname.php';
+<?php include 'amstrongnumber.php';
