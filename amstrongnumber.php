@@ -6,7 +6,7 @@
     $digits = array_map( function($digit) use ($digitCount) {
         return $digit ** $digitCount;
     }, $digits );
-
+  
     return array_sum($digits) === $number ;
 
  }

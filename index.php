@@ -1,1 +1,1 @@
-<?php include 'amstrongnumber.php';
+<?php include 'series.php';
