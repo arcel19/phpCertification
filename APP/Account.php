@@ -1,5 +1,6 @@
 <?php 
 declare(strict_types=1);
+
 namespace App;
 
 class Account{
@@ -8,5 +9,8 @@ class Account{
         public float $balance
     ) {
         
+    }
+    public function deposit( float $amount){
+        $this->balance += $amount;
     }
 }
