@@ -11,7 +11,7 @@ class Account{
     public socialMedia $socialMedia;
     Public function __construct(
         public string $name,
-        public float $balance
+        public float $balance,
     ) {
         $this->socialMedia = new socialMedia();
     }
