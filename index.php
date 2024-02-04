@@ -2,9 +2,10 @@
 
 declare(strict_types = 1);
 
-require_once 'app/Account.php';
+require_once 'App/Account.php';
+require_once 'App/socialMedia.php';
 
-use App\Account;
+use App\{Account,socialMedia};
 
 $myAccount = new Account('john', 20);
 
