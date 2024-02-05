@@ -5,17 +5,26 @@ declare(strict_types = 1);
 // require_once 'App/Account.php';
 // require_once 'App/socialMedia.php';
 
-spl_autoload_register( function($class) {
-    $formattedClass = str_replace("\\", "/", $class);
-    $path = "{$formattedClass}.php";
+// spl_autoload_register( function($class) {
+//     $formattedClass = str_replace("\\", "/", $class);
+//     $path = "{$formattedClass}.php";
 
-    require_once $path;
-});
+//     require_once $path;
+// });
 
-use App\{Account,socialMedia};
+// use App\{Account,socialMedia};
 
-$myAccount = new Account('john', 20);
+// $myAccount = new Account('john', 20);
 
 // $myAccount?->deposit(30);
  
-var_dump($myAccount);
+
+$timezone = new DateTimeZone("America/Chicago");
+$date = new DateTimeZone("12/22/78", $timezone);
+$date->setTimezone(new DateTimeZone("Europe/Paris"))
+->SetDate(2023, 6 ,16)
+->setTime(9, 30);
+
+echo "<pre>";
+    var_dump($date);
+echo " </pre>";
